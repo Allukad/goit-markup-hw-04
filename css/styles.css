@@ -109,6 +109,10 @@ img {
   padding: 0px;
   margin-left: auto;
 }
+.contacts-item {
+  display: inline-flex;
+  align-items: flex-end;
+}
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -336,4 +340,70 @@ img {
 }
 .address-cont {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-whyme-4 {
+  width: 2.25em;
+}
+
+.icon-whyme-3 {
+  width: 2.25em;
+}
+
+.icon-whyme-2 {
+  width: 2.25em;
+}
+
+.icon-whyme-1 {
+  width: 2.25em;
+}
+
+.icon-mail {
+  margin-right: 10px;
+  width: 1.3330078125em;
+}
+
+.icon-smartphone {
+  margin-right: 10px;
+  width: 0.625em;
+}
+
+.icon-Client-3 {
+  width: 1.84765625em;
+}
+
+.icon-Client-2 {
+  width: 1.84765625em;
+}
+
+.icon-Client-1 {
+  width: 1.84765625em;
+}
+
+.icon-Client-6 {
+  width: 1.84765625em;
+}
+
+.icon-Client-5 {
+  width: 1.84765625em;
+}
+
+.icon-Client-4 {
+  width: 1.84765625em;
 }
