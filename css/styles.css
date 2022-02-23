@@ -129,10 +129,21 @@ img {
 .contacts-link:focus {
   color: #2196f3;
 }
+.contacts-text {
+  margin-left: 5px;
+}
 /* Стили главной страницы */
 /* Заказать услугу */
 .hero {
-  background-color: #2f303a;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-img/heroweb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   padding: 200px 0;
 }
 
@@ -371,16 +382,13 @@ Single-colored icons can be modified like so:
 }
 
 .icon-whyme-1 {
-  width: 2.25em;
 }
 
 .icon-mail {
-  margin-right: 10px;
   width: 1.3330078125em;
 }
 
 .icon-smartphone {
-  margin-right: 10px;
   width: 0.625em;
 }
 
