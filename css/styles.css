@@ -106,31 +106,31 @@ img {
 /* Шапка Контакты */
 .header-contacts {
   display: flex;
+  align-items: center;
   padding: 0px;
   margin-left: auto;
-}
-.contacts-item {
-  display: inline-flex;
-  align-items: flex-end;
 }
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--sec-color);
 }
+.header-contacts .icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
 .contacts-link:hover {
   color: #2196f3;
 }
 .contacts-link:focus {
   color: #2196f3;
-}
-.contacts-text {
-  margin-left: 5px;
 }
 /* Стили главной страницы */
 /* Заказать услугу */
@@ -183,6 +183,16 @@ img {
 }
 .whyme-item:not(:last-child) {
   margin-right: 30px;
+}
+.whyme-icon-box {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 .whyme-item-title {
   font-weight: 700;
@@ -242,6 +252,7 @@ img {
 }
 .team-item {
   width: 270px;
+  padding-bottom: 30px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -260,7 +271,32 @@ img {
 }
 .team-box {
   padding-top: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+.social-link:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.social-list .icon {
+  fill: currentColor;
 }
 /* Стили Портфолио */
 
