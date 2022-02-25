@@ -302,7 +302,7 @@ img {
 .social-list .icon {
   fill: currentColor;
 }
-/* Стили наши клиенты */
+/* Стили "наши клиенты" */
 .clients-title {
   font-weight: 700;
   font-size: 36px;
@@ -314,7 +314,6 @@ img {
 .clients-list {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .clients-item:not(:last-child) {
   margin-right: 30px;
@@ -369,6 +368,12 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.filter-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 /* Портфолио проекты */
 .portf-project-list {
   display: flex;
@@ -376,6 +381,19 @@ img {
 }
 .portf-project-item {
   width: 370px;
+}
+.portf-project-item:hover {
+  cursor: pointer;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portf-project-item:focus {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portf-project-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
@@ -408,6 +426,10 @@ img {
   padding-bottom: 60px;
   background-color: #2f303a;
 }
+.footer-box {
+  display: flex;
+  align-items: center;
+}
 /* Подвал логотип цвет */
 .logo-foot-studio {
   color: #ffffff;
@@ -430,4 +452,42 @@ img {
 }
 .address-cont {
   color: rgba(255, 255, 255, 0.6);
+}
+/* Подвал социалка */
+.foot-soc-box {
+  margin-left: 70px;
+}
+.foot-soc-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.social-foot-list {
+  display: flex;
+  align-items: center;
+}
+.social-foot-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: #ffffff;
+}
+.social-foot-link:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.social-foot-link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.social-foot-list .icon {
+  fill: currentColor;
 }
